@@ -1,17 +1,2 @@
 
 @import 'tailwindcss';
-
-@theme {
-  --color-yellow-custom: #FFBB00;
-  --color-yellow-custom-hover: #E2A500;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
-
-* {
-  font-family: 'Poppins', sans-serif;
-}
-
-html, body {
-  height: 100%;
-}
