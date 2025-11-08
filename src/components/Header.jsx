@@ -4,7 +4,10 @@ const Header = ({
   corFundo,
   corFonte,
   altura,
-  preenchimento
+  preenchimento,
+  modeloCaixa,
+  justificacao,
+  alinhamento
 }) => {
 
   const style = `
@@ -12,6 +15,9 @@ const Header = ({
     ${corFonte}
     ${altura}
     ${preenchimento}
+    ${modeloCaixa}
+    ${justificacao}
+    ${alinhamento}
   `;
 
   return <header className={style}>{children}</header>;
